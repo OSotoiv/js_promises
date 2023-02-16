@@ -1,0 +1,13 @@
+.work_space {
+    height: 500px;
+    background-color: rgb(107, 143, 193);
+    border: 2px solid rgb(45, 77, 158);
+    margin: 2px;
+}
+
+.facts {
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
