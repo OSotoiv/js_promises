@@ -1,0 +1,21 @@
+#card-pile {
+    position: relative;
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(107, 143, 193);
+}
+
+#card-pile img {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+}
+
+.row-card {
+    height: 500px;
+    background-color: rgb(107, 143, 193);
+    border: 2px solid rgb(45, 77, 158);
+    margin: 2px;
+}

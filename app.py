@@ -11,4 +11,14 @@ app.config['DEBUG_TB_INTERCEPT_REDIRECTS'] = False
 
 @app.route('/')
 def home():
-    return render_template('home.html')
+    return render_template('base.html')
+
+
+@app.route('/numbers', methods=['GET'])
+def numbers():
+    return render_template('numbers.html', css="numbers", js="numbers")
+
+
+@app.route('/cards', methods=['GET'])
+def cards():
+    return render_template('cards.html', css="cards", js="cards")

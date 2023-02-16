@@ -1,0 +1,8 @@
+.navbar {
+    height: 46px;
+    margin-bottom: 1rem;
+    position: relative;
+    z-index: 9999;
+    background-color: rgb(107, 143, 193);
+    border-bottom: 2px solid rgb(45, 77, 158);
+}
